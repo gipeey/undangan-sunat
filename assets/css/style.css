@@ -1,0 +1,66 @@
+.container-mobile {
+  max-width: 540px;
+  margin-right: auto;
+  margin-left: auto;
+  font-family: "Open Sans", sans-serif;
+  font-size: 12px;
+}
+
+.font-arizonia {
+  font-family: "Arizonia", cursive;
+  font-size: 20px;
+  color: #456d3b;
+}
+
+.font-berkshire {
+  font-size: 24px;
+  font-family: "Berkshire Swash", cursive;
+  color: #456d3b;
+}
+
+.btn-primary {
+  background-color: #6fa963;
+  border: #6fa963;
+  font-family: "Berkshire Swash", cursive;
+  padding: 12px;
+  width: 138px;
+}
+.btn-primary:hover,
+.btn-primary:active {
+  background-color: #456d3b;
+}
+
+.salam {
+  background-image: url("../img/bg-daun-1.png");
+  background-repeat: no-repeat;
+  background-size: contain;
+  background-position: top;
+
+  padding-top: 200px;
+}
+
+.date {
+  background-image: url("../img/bg-daun-2.png");
+  background-repeat: no-repeat;
+  background-size: contain;
+  background-position: bottom;
+}
+
+.date .col,
+.font-cinzel {
+  font-family: "Cinzel", serif;
+  font-size: 24px;
+  color: #6fa963;
+}
+
+.modal .container-mobile {
+  background-image: url("../img/bg-modal.png");
+  background-position: top center;
+  background-repeat: no-repeat;
+  background-size: contain;
+  height: 100vh;
+}
+
+.modal .btn-primary {
+  width: 170px;
+}
